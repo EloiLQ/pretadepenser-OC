@@ -6,8 +6,9 @@ L’entreprise Prêt à Dépenser souhaite mettre en œuvre un outil de “scori
 
 
 Dans ce projet, on réalise :
-- un [modèle statistique](https://nbviewer.org/github/EloiLQ/pretadepenser-OC/blob/main/Modelisation.ipynb) pour prédire les clients susceptibles de ne pas rembourser leur crédit (Modelisation.ipynb). La modélisation est effectuée avec l'algorithme LightGBM.
-- une [application web](https://share.streamlit.io/eloilq/webapp-banking/main/app.py) pour utiliser le modèle et pour interpréter ses résultats (app.py). L'application est déployée avec Streamlit.
+- une sélection des variables les plus importantes pour la modélisation ([Modelisation.ipynb](https://nbviewer.org/github/EloiLQ/pretadepenser-OC/blob/main/Modelisation.ipynb))
+- une sélection du meilleur modèle à partir d'une recherche sur grille ([classBalanced2.ipynb](https://nbviewer.org/github/EloiLQ/pretadepenser-OC/blob/main/classBalanced2.ipynb)) pour prédire les clients susceptibles de ne pas rembourser leur crédit (Modelisation.ipynb). On teste deux algorithmes d'apprentissage : XGBoost et LightGBM.
+- une [application web](https://share.streamlit.io/eloilq/webapp-banking/main/app.py) pour utiliser le modèle sélectionné et pour interpréter ses résultats (app.py). L'application est déployée avec Streamlit.
 
 
 La note méthodogique résume les points clé de la modélisation.
